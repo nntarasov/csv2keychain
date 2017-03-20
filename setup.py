@@ -12,9 +12,6 @@ version = re.search(
     re.M
 ).group(1)
 
-with open("README.rst", "rb") as f:
-    long_descr = f.read().decode("utf-8")
-
 setup(
     name="cmdline-csv2keychain",
     packages=["csv2keychain"],
@@ -23,8 +20,7 @@ setup(
     },
     version=version,
     description="Tool for adding exported credentials from Chrome to the macOS keychain.",
-    long_description=long_descr,
     author="Nikita Tarasov",
     author_email="mail@ntarasov.ru",
-    url="",
+    url="https://github.com/nntarasov/csv2keychain",
 )

@@ -5,7 +5,7 @@
 import sys
 from .csv2keychain import Csv2Keychain
 
-__version__ = "0.1.0"
+__version__ = "0.1.3"
 
 
 def main():
