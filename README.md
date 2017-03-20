@@ -6,6 +6,8 @@
 
 Small tool for adding exported credentials from Chrome to the macOS keychain
 
+**macOS 10.12.3 Sierra** tested
+
 ## Installing ##
 You can install the package via *pip*
 ```bash
@@ -34,4 +36,4 @@ $ csv2keychain [path.csv] [-u] [-s]
 $ csv2keychain ~/Desktop/credentials.csv -s
 ```
 
-Now your Chrome passwords are available for Safari :)
+Now your Chrome passwords are available for Safari & other apps :)
