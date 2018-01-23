@@ -4,7 +4,7 @@
 
 ## About ##
 
-Small tool for adding exported credentials (login/password pairs) from Chrome to the macOS keychain
+Small command-line tool for adding exported credentials (login/password pairs) from Chrome to the macOS keychain
 
 **macOS 10.12.3 Sierra** tested
 
