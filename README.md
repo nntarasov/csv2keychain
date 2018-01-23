@@ -1,5 +1,5 @@
 # сsv2keychain #
-[![PyPI](https://img.shields.io/badge/pypi-v0.1.3-blue.svg)](https://pypi.python.org/pypi?name=cmdline-csv2keychain&version=0.1.0&:action=display)
+[![PyPI](https://img.shields.io/badge/pypi-v0.1.3-blue.svg)](https://pypi.python.org/pypi/cmdline-csv2keychain/0.1.3)
 [![Python](https://img.shields.io/badge/python-3.4-green.svg)](https://pypi.python.org/pypi?name=cmdline-csv2keychain&version=0.1.0&:action=display)
 
 ## About ##
