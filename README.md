@@ -16,11 +16,11 @@ $ pip3 install cmdline-csv2keychain
 
 ## Preparing credentials from Chrome ##
 
-1. To use this tool you should manually export credentials from Google Chrome into *.csv* file. In the browser, switch to  ```chrome://flags/#PasswordExport``` and enable option ```#password-import-export```.
+1. To use this tool you should manually export credentials from Google Chrome into *.csv* file. In the browser, switch to  ```chrome://flags/#PasswordExport``` and enable option ```#PasswordExport```.
 
 2. Reload Chrome
 
-3. Go to ```chrome://settings-frame/passwords```, click ```Export``` and save the ```.csv``` file in any convinient location
+3. Go to ```chrome://settings/passwords```, click ```Other actions``` button, then click ```Export``` and save the ```.csv``` file in any convinient location
 
 ## How to use ##
 
