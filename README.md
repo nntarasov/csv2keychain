@@ -21,7 +21,7 @@ $ pip3 install cmdline-csv2keychain
 
 2. Reload Chrome
 
-3. Go to ```chrome://settings/passwords```, click ```Other actions``` button, then click ```Export``` and save the ```.csv``` file in any convinient location
+3. Go to ```chrome://settings/passwords```, click ```Other actions``` button (three dots, to the right of ```Saved Passwords``` text), then click ```Export``` and save the ```.csv``` file in any convinient location
 
 ## How to use ##
 
