@@ -34,7 +34,7 @@ $ csv2keychain [path.csv] [-u] [-s]
 
 ## Example ##
 ```bash
-$ csv2keychain ~/Desktop/credentials.csv -s
+$ csv2keychain ~/Desktop/Chrome\ Passwords.csv -s
 ```
 
 Now your Chrome passwords are available for Safari & other apps :)
