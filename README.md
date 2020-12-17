@@ -4,12 +4,14 @@
 
 ## About ##
 
-Small command-line tool for adding exported credentials (login/password pairs) from Chrome to the macOS keychain
+Small command-line tool for adding exported credentials (login/password pairs) from Chrome to the macOS keychain.
 
-**macOS 10.12.3 Sierra** tested
+**Note**: As of macOS High Sierra (`v10.13`) Safari is able to import bookmarks, history and passwords from Chrome and Firefox: https://support.apple.com/guide/safari/import-bookmarks-history-and-passwords-ibrw1015/mac.
+
+The passwords are stored in the (iCloud) keychain. It is therefore not necessary to use `csv2keychain` for this use case, especially since the tool is not able to import to the iCloud keychain (see [#9](https://github.com/nntarasov/csv2keychain/issues/9)).
 
 ## Installing ##
-You can install the package via *pip*
+You can install the package via *pip*.
 ```bash
 $ pip3 install cmdline-csv2keychain
 ```
@@ -17,11 +19,11 @@ $ pip3 install cmdline-csv2keychain
 ## Preparing credentials from Chrome ##
 
 1. To use this tool you should manually export credentials from Google Chrome into *.csv* file. In the browser, switch to  ```chrome://flags/#PasswordExport``` and enable option ```#PasswordExport```. 
-*UPD: seems that last versions of chrome enables this feature by default. So you can omit this step*
+*UPD: seems that last versions of Chrome enables this feature by default. So you can omit this step*.
 
 2. Reload Chrome
 
-3. Go to ```chrome://settings/passwords```, click ```Other actions``` button (three dots, to the right of ```Saved Passwords``` text), then click ```Export``` and save the ```.csv``` file in any convinient location
+3. Go to ```chrome://settings/passwords```, click ```Other actions``` button (three dots, to the right of ```Saved Passwords``` text), then click ```Export``` and save the ```.csv``` file in any convinient location.
 
 ## How to use ##
 
@@ -37,4 +39,4 @@ $ csv2keychain [path.csv] [-u] [-s]
 $ csv2keychain ~/Desktop/Chrome\ Passwords.csv -s
 ```
 
-Now your Chrome passwords are available for Safari & other apps :)
+Now your Chrome passwords are available for Safari & other apps. :)
