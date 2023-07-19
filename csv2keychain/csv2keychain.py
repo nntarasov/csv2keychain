@@ -11,7 +11,7 @@ import csv
 class Csv2Keychain:
 
     def addkey(self, params, update):
-        name, url, username, password = params
+        name, url, username, password, note = params
         url = urlparse(url)
         domain = url.netloc
         path = url.path
